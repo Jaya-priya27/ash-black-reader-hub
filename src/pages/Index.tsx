@@ -12,8 +12,9 @@ const Index = () => {
         <CountryFilter />
         <Dashboard />
         <ArticleGrid />
-        <VoiceCommand />
       </main>
+      {/* Floating Voice Command */}
+      <VoiceCommand />
     </div>
   );
 };
